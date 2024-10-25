@@ -1,0 +1,34 @@
+<html>
+    <head>
+    </head>
+    <title>
+        ADD here and GET HERE
+    </title><link rel="stylesheet" href="TO_DO_WEBSITE.css">
+    <h1>Stay on top of tasks with a planner</h1>
+<body> 
+    <div class="box2" style="margin-left: 500px,;" >
+      <h2 > ORGANISE YOUR DAY</h2>
+      <h3>ADD TASK HERE<br><br>  <br></h3>
+      <form >
+        <input type="checkbox">
+        <button onclick="openAddTask()">➕ Add New Task</button><br><br>
+        <button onclick="openAddTask()">➕ Add REMINDER</button> <input type="datetime-local">
+        <script>
+            let tasks = [];
+            function openAddTask() {
+                const taskName = prompt("Enter task name:");
+                const taskTime = parseInt(prompt("Enter countdown time in seconds:"));
+            }
+            function displayTasks() {
+                const taskList = document.getElementById('task-list');
+                taskList.innerHTML = ''; // Clear previous tasks
+            }
+            </script><br>
+        <input type="submit" value="Submit">
+      </form>
+      
+    </div>
+    <div class="menu1">
+<p> WHAT FEATURES WE PROVIDE!!!<br><br><br>
+     #Customizable stages<br>#Task prioritization<br>#Task reminders<br>#Deadline mode<br>#Integrated with chat and video calls</p> </div>
+</html

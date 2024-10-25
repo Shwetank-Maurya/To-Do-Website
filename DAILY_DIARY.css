@@ -1,0 +1,24 @@
+h1{
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-align: center;
+    color: black;
+    font-size: 60px;
+    background-color: rgb(190, 46, 46);
+}
+h4{color: chartreuse;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    background-color: aqua(163, 247, 247);;
+}
+
+.search{
+    height: 400px;
+    width: 700px;
+    padding-left: 0;
+    padding-top: 0;
+    margin-left: 400px;
+    line-height: 1em;
+}
